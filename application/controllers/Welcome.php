@@ -20,8 +20,9 @@ class Welcome extends MY_Controller {
 	 */
 	public function index()
 	{
+		$this->require_min_level(1);
 		//$this->load->view('welcome_message');
-		echo $this->blade->view()->make('welcome_message',['name' => 'John Doe']);
+		echo $this->blade->view()->make('welcome_message',['name' => 'John Does']);
 		
 	}
 }

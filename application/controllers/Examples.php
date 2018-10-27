@@ -295,6 +295,7 @@ class Examples extends MY_Controller
 			$this->require_min_level(1);
 
 		$this->setup_login_form();
+		
 
 		$html = $this->load->view('examples/page_header', '', TRUE);
 		$html .= $this->load->view('examples/login_form', '', TRUE);
