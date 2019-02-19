@@ -23,7 +23,6 @@ class Dashboard extends MY_Controller
 	{
 		$this->require_min_level(1); //request user to be logged
 		
-		
 		//Prepare $data for View
 		
 		//$data['breadcrumbs'] = $breadcrumbs;

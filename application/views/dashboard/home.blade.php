@@ -2,7 +2,7 @@
 include APPPATH . 'libraries/MetronicTopMenu.php';
 
 $breadcrumbs = array(
-	array('text'=>"Home",'href'=>'#'),
+	array('text'=>"Homex",'href'=>'#'),
 	array('separator'=>true),
 	array('text'=>"End",'href'=>'#')
 );
@@ -17,13 +17,15 @@ $content_dropdown_options = [
 
 $metronic_module_top_menu = new MetronicTopMenu(
 	[
-		new MetronicTopMenu_Option(["text"=>"Full Button","icon" =>"flaticon-add","badge" => "2", "href" => "#action"]),
-		new MetronicTopMenu_Option(["text"=>"Icon Button","icon" =>"flaticon-add","href" => "#action"]),
+		new MetronicTopMenu_Option(["text"=>"Full Button","icon" =>"flaticon-add","badge" => "2", "href" => "#na"]),		
 		new MetronicTopMenu_Option(["text"=>"Badge Button","badge" =>"?","href" => "#action"]),
-		new MetronicTopMenu_MenuOption(["text" => "SubMenu","icon" =>"flaticon-add","badge"=>"new"],[
+		new MetronicTopMenu_MenuOption(["text"=>"SubMenu","icon" =>"flaticon-add","badge"=>"new"],[
 			new MetronicTopMenu_Option(["text"=>"Full Button","icon" =>"flaticon-add","badge" => "2", "href" => "#action"]),
 			new MetronicTopMenu_Option(["text"=>"Icon Button","icon" =>"flaticon-add","href" => "#action"]),
-			new MetronicTopMenu_Option(["text"=>"Badge Button","icon" =>"flaticon-add","href" => "#action"]),
+			new MetronicTopMenu_MenuOption(["text"=>"Sub Menu","icon" =>"flaticon-add","href" => "#action"],[
+				new MetronicTopMenu_Option(["text"=>"Sub Menu 31","icon" =>"flaticon-add","badge" => "2", "href" => "#action"]),
+				new MetronicTopMenu_Option(["text"=>"Sub Menu 32","icon" =>"flaticon-add","badge" => "2", "href" => "#action"])
+			]),
 		]),
 	]
 );
@@ -33,7 +35,7 @@ $metronic_module_top_menu = new MetronicTopMenu(
 
 @section('title','Dashboard')
 
-@section('content_title','Dashboard')
+@section('content_title','Dashboardd')
 
 @section('m-content')
 	

@@ -163,11 +163,13 @@
 															</a>
 														</li>
 														@endforeach
+														<!--
 														<li class="m-nav__separator m-nav__separator--fit">
 														</li>
 														<li class="m-nav__item">
 															<a href="#" class="btn btn-outline-danger m-btn m-btn--pill m-btn--wide btn-sm">Submit</a>
 														</li>
+														-->
 													</ul>
 												</div>
 											</div>
@@ -211,27 +213,7 @@
 									<a href="#" class="m-nav__link">
 										<span class="m-nav__link-text">About</span>
 									</a>
-								</li>
-								<li class="m-nav__item">
-									<a href="#" class="m-nav__link">
-										<span class="m-nav__link-text">Privacy</span>
-									</a>
-								</li>
-								<li class="m-nav__item">
-									<a href="#" class="m-nav__link">
-										<span class="m-nav__link-text">T&C</span>
-									</a>
-								</li>
-								<li class="m-nav__item">
-									<a href="#" class="m-nav__link">
-										<span class="m-nav__link-text">Purchase</span>
-									</a>
-								</li>
-								<li class="m-nav__item m-nav__item">
-									<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
-										<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
-									</a>
-								</li>
+								</li>								
 							</ul>
 						</div>
 					</div>
@@ -719,6 +701,7 @@
 		<!-- end::Scroll Top -->
 
 		<!-- begin::Quick Nav -->
+		<!--
 		<ul class="m-nav-sticky" style="margin-top: 30px;">
 			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Purchase" data-placement="left">
 				<a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" target="_blank">
@@ -736,7 +719,7 @@
 				</a>
 			</li>
 		</ul>
-
+		-->
 		<!-- begin::Quick Nav -->
 
 		<!--begin::Base Scripts -->
